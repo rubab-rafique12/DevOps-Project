@@ -9,7 +9,8 @@ Git Workflow and Team Collaboration
 | Rubab Rafique | 55565 | Team Leader |
 | Salma Rani | 54194 | Team Member |
 | Momna Khurram | 55430 | Team Member |
-
+| Ayesha Tassawar | 55421 | Team Member |
+| Amna Tassawar | 55420 | Team Member |
 ## Project Description
 
 This repository demonstrates Git and GitHub collaboration,
