@@ -1,48 +1,92 @@
 <!DOCTYPE html>
-<html lang="ur">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mera Pehla Project</title>
+
+    <title>My First Web Project</title>
+
     <style>
         body {
             font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #74ebd5, #9face6);
+            margin: 0;
+            height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            background-color: white;
+            width: 400px;
+            padding: 40px;
             text-align: center;
-            background-color: #f0f8ff;
-            margin-top: 50px;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
         }
+
         h1 {
-            color: #2c3e50;
+            color: #4a4de7;
+            margin-bottom: 15px;
         }
+
         p {
             color: #555;
             font-size: 18px;
         }
+
         button {
-            padding: 10px 20px;
+            padding: 12px 25px;
+            margin-top: 15px;
             font-size: 16px;
-            background-color: #007bff;
+            background-color: #4a4de7;
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
             cursor: pointer;
         }
+
         button:hover {
-            background-color: #0056b3;
+            background-color: #292bb5;
+        }
+
+        #message {
+            margin-top: 20px;
+            color: green;
+            font-weight: bold;
         }
     </style>
 </head>
+
 <body>
 
-    <h1>Hello World!</h1>
-    <p>Ye mera pehla basic HTML webpage hai.</p>
+    <div class="card">
 
-    <button onclick="showMessage()">Yahan Click Karein</button>
+        <h1>Welcome to My Website!</h1>
+
+        <p>
+            This is my first beautiful HTML webpage.
+        </p>
+
+        <button onclick="showMessage()">
+            Click Me
+        </button>
+
+        <div id="message"></div>
+
+    </div>
 
     <script>
+
         function showMessage() {
-            alert("Welcome! Aapka code kamyabi se chal gaya hai.");
+
+            document.getElementById("message").innerHTML =
+                "🎉 Congratulations! Your code is working successfully!";
+
         }
+
     </script>
 
 </body>
