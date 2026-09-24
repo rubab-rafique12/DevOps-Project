@@ -23,3 +23,8 @@ pull requests, code review, and merging.
 
 ```bash
 docker build -t devops-project .
+
+### Run Docker Container
+
+```bash
+docker run -d -p 8080:80 --name devops-container devops-project
