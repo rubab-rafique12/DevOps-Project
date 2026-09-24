@@ -28,3 +28,7 @@ docker build -t devops-project .
 
 ```bash
 docker run -d -p 8080:80 --name devops-container devops-project
+
+### Momna's Docker Image
+- **Pull Command:** `docker pull momna376/devops-project:v1.0`
+- **Run Command:** `docker run -d -p 8080:80 momna376/devops-project:v1.0`
