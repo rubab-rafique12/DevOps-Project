@@ -16,3 +16,10 @@ Git Workflow and Team Collaboration
 This repository demonstrates Git and GitHub collaboration,
 including cloning, branching, committing, pushing,
 pull requests, code review, and merging.
+
+## Docker Setup
+
+### Build Docker Image
+
+```bash
+docker build -t devops-project .
