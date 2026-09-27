@@ -108,3 +108,12 @@ docker push ayesha077/devops-project:v1
 
 ### Docker Hub Repository
 - **Ayesha's Docker Hub Image:** https://hub.docker.com/r/ayesha077/devops-project
+## Individual Contribution - Salma Rani (ID: 54194)
+
+### GitHub / Repository Contribution
+
+- Maintained the `Salma-Rani` branch.
+- Pulled the latest changes from the `main` branch.
+- Merged the Dockerfile and latest project changes into the `Salma-Rani` branch.
+- Pushed the updated project files to GitHub.
+- Verified that the Dockerfile, README.md, and application files are available in the `Salma-Rani` branch.
