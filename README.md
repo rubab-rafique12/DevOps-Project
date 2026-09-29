@@ -117,3 +117,13 @@ docker push ayesha077/devops-project:v1
 - Merged the Dockerfile and latest project changes into the `Salma-Rani` branch.
 - Pushed the updated project files to GitHub.
 - Verified that the Dockerfile, README.md, and application files are available in the `Salma-Rani` branch.
+
+## Individual Contribution - Momna (ID: 55430)
+
+### Docker Commands
+
+```bash
+docker build -t devops-project .
+docker run -d -p 8080:80 --name devops-container devops-project
+docker tag devops-project momna376/devops-project:v1.0
+docker push momna376/devops-project:v1.0
