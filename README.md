@@ -97,33 +97,3 @@ docker push rubabrafique12/devops-project:latest
 
 This project demonstrates Git and GitHub based team collaboration along with Docker-based application containerization. The application was successfully managed using GitHub, containerized using Docker, tested locally, and pushed to Docker Hub.
 
-## Individual Contribution - Ayesha Tassawar (ID: 55421)
-
-### Docker Commands
-```bash
-docker build -t devops-app-ayesha .
-docker run -d -p 8080:80 --name container-ayesha devops-app-ayesha
-docker tag devops-app-ayesha ayesha077/devops-project:v1
-docker push ayesha077/devops-project:v1
-
-### Docker Hub Repository
-- **Ayesha's Docker Hub Image:** https://hub.docker.com/r/ayesha077/devops-project
-## Individual Contribution - Salma Rani (ID: 54194)
-
-### GitHub / Repository Contribution
-
-- Maintained the `Salma-Rani` branch.
-- Pulled the latest changes from the `main` branch.
-- Merged the Dockerfile and latest project changes into the `Salma-Rani` branch.
-- Pushed the updated project files to GitHub.
-- Verified that the Dockerfile, README.md, and application files are available in the `Salma-Rani` branch.
-
-## Individual Contribution - Momna (ID: 55430)
-
-### Docker Commands
-
-```bash
-docker build -t devops-project .
-docker run -d -p 8080:80 --name devops-container devops-project
-docker tag devops-project momna376/devops-project:v1.0
-docker push momna376/devops-project:v1.0
